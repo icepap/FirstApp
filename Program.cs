@@ -28,7 +28,16 @@ namespace FirstApp
             MyFavoriteDay = DaysOfWeek.Friday;
 
             Console.WriteLine(MyFavoriteDay);
+            
+
+            Semaphore Semaphore_Color;
+            Semaphore_Color = Semaphore.Green;
+
+            Console.WriteLine("Semaphore color is " + Semaphore_Color);
             Console.ReadKey();
+
+
+
 
 
         }
@@ -42,5 +51,16 @@ namespace FirstApp
             Saturday,
             Sunday
         }
+
+        enum Semaphore : int
+        {
+            Green = 100,
+            Yellow = 200,
+            Red = 300
+        }
+
+
+
+
     }
 }
