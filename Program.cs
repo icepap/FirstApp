@@ -9,7 +9,9 @@ namespace FirstApp
             string PersonName;
             PersonName = "Oraz";
 
-            Console.WriteLine(PersonName);
+            Console.WriteLine("Привет, мир!");
+            Console.WriteLine("\t Меня зовут \n \t {0}", PersonName);
+            Console.WriteLine("\x23 ");
             Console.ReadKey();
         }
     }
