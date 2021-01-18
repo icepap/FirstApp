@@ -36,7 +36,9 @@ namespace FirstApp
             Console.WriteLine("Semaphore color is " + Semaphore_Color);
             Console.ReadKey();
 
-
+            double result = 10 % 3;
+            Console.WriteLine("10 % 3 = {0}", result);
+            Console.ReadKey();
 
 
 
