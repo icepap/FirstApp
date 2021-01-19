@@ -6,7 +6,7 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
-            string PersonName;
+            /*string PersonName;
             PersonName = "Oraz";
 
             Console.WriteLine("Привет, мир!");
@@ -30,15 +30,43 @@ namespace FirstApp
             Console.WriteLine(MyFavoriteDay);
             
 
-            Semaphore Semaphore_Color;
-            Semaphore_Color = Semaphore.Green;
+            //Semaphore Semaphore_Color;
+            //Semaphore_Color = Semaphore.Green;
 
-            Console.WriteLine("Semaphore color is " + Semaphore_Color);
+           // Console.WriteLine("Semaphore color is " + Semaphore_Color);
+          //  Console.ReadKey();
+
+          //  double result = 10 % 3;
+           // Console.WriteLine("10 % 3 = {0}", result);
+           // Console.ReadKey();
+
+            */
+
+
+            //ЗАДАНИЕ №3.7.4
+
+            
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter your age: ");
+            byte age = (byte)int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Your name is {0} and age is {1}", name, age);
+
+            Console.Write("What is your favorite day of week: ");
+            DaysOfWeek day = (DaysOfWeek)int.Parse(Console.ReadLine());
+            Console.WriteLine("Your favorite day is {0}", day);
             Console.ReadKey();
 
-            double result = 10 % 3;
-            Console.WriteLine("10 % 3 = {0}", result);
-            Console.ReadKey();
+
+
+
+
+
+
+
+
 
 
 
@@ -53,15 +81,18 @@ namespace FirstApp
             Saturday,
             Sunday
         }
-
+     
+      
+       /*
+        
         enum Semaphore : int
         {
             Green = 100,
             Yellow = 200,
             Red = 300
         }
-
-
+        
+        */
 
 
     }
